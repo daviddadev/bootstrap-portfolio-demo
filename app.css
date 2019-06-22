@@ -1,0 +1,48 @@
+body {
+    padding-top: 50px;
+}
+
+#header-section {
+    background: #19547b;
+    background: linear-gradient(-160deg, #ffd89b 0%, #19547b 100%);
+    color: white;
+}
+
+.img-y-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#about-me {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, .5)),
+        url(./img/photo-1522071901873-411886a10004.jpeg);
+}
+
+#contact-me {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, .5)),
+        url(./img/lit-keyboard.jpeg);
+}
+
+#about-me,
+#contact-me,
+#footer {
+    color: white;
+    padding: 10rem 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+hr.hr-light {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+
+p.lead {
+    text-align: justify;
+}
+
+#footer {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, .3)),
+        url(./img/sd-g-maps-clean.png);
+}
